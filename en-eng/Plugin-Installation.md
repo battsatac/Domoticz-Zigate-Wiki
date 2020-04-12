@@ -1,15 +1,15 @@
 ## Installation
 
 Python version 3.5 or higher required &amp; Domoticz version 3.87xx or greater.
-For more information on Python requirements we advice you to go to the [Domoticz Python page](https://www.domoticz.com/wiki/Using_Python_plugins).
-Make sure that to have __python3-dev package__ installed
+For more information on Python requirements we advise you to go to the [Domoticz Python page](https://www.domoticz.com/wiki/Using_Python_plugins).
+Make sure that you have the __python3-dev__ package installed.
 
 To install:
 
 1. If you are on a Synology NAS platform
    * [Plugin-Installation on Syno](Plugin-Installation-on-Synology-NAS.md)
    
-1. Integrated Domoticz and Plugin installation ** In case you start from green field (no Domoticz installed yet) **
+1. Integrated Domoticz and Plugin installation ** In case you start from scratch (no Domoticz installed yet) **
    * Simply go to [Packaging Domoticz for Debian, Ubuntu, Raspbian and Fedora](https://danielpocock.com/domoticz-packaging-debian-ubuntu-raspbian-fedora/)
    
 1. If you run Fedora on an ARM and you want to use PiZiGate 
@@ -17,7 +17,7 @@ To install:
    
 1. Installation from GitHub Repository
    
-   1. If you are installing and be using the Plugin with a PiZigate you have some follow some pre-requisities
+   1. If you are installing and using the plugin with a PiZigate you have to check some pre-requisities :
       * You must be on a Raspbian distribution
       * You must install the wiringPi package to get access to gpio commands
       * A Cookbook for PiZigate on an RPI3B+ is available [here](https://github.com/pipiche38/Domoticz-Zigate-Wiki/blob/master/en-eng/PiZigate-RPI3B+-Cookbook.md)
@@ -92,13 +92,13 @@ Of course you must backup the Domoticz Database `domoticz.db` (check to Domoticz
 
 ## Plugin branches
 
-The plugin is under constant development in order to bug fix and add new features as well as taking into account new devices.
+The plugin is under constant development in order to fix bugs and add new features as well as to support new devices.
 
 The code is available under different branches
 
 ## About release channels
 
-In order to provide stability and also provide more recent development, Zigate plugin has the following channels
+In order to provide stability and also provide more recent development, Zigate plugin has the following channels :
 
 ### stable
 
@@ -106,7 +106,7 @@ This is considered as a solid , reliable version.
 
 ### beta
 
-We can open the beta channel to provide early version and to stabilize the version priori to be move to the stable channel
+We can open the beta channel to provide early version and to stabilize the version prior to move to the stable channel
 
 ## How to switch from one channel to the other
 
